@@ -3,14 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { QuizComponent } from './quiz/quiz.component';
+import { BackgroundDirective } from './background.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    QuizComponent,
+    BackgroundDirective,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
+   
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
